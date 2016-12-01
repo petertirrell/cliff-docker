@@ -1,8 +1,8 @@
 cd conf; rm tomcat-users.xml; wget https://raw.githubusercontent.com/ahalterman/CLIFF-up/master/tomcat-users.xml
 $CATALINA_HOME/bin/startup.sh
 
-cd; wget https://github.com/c4fcm/CLIFF/releases/download/v2.1.1/CLIFF-2.1.1.war
-mv CLIFF-2.1.1.war /usr/local/tomcat/webapps/
+cd; wget https://github.com/c4fcm/CLIFF/releases/download/v2.3.0/CLIFF-2.3.0.war
+mv CLIFF-2.3.0.war /usr/local/tomcat/webapps/
 
 apt-get install -y git openjdk-7-jdk openjdk-7-doc openjdk-7-jre-lib maven
 cd; git clone https://github.com/Berico-Technologies/CLAVIN.git
